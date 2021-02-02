@@ -1,0 +1,21 @@
+body{
+    width:90%;
+    margin:auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    }
+
+header{
+    font-size: 16px;
+}
+
+#linkkleur{
+    color:#ff9c00;
+}
+
+.textblock{
+    background-color: #303030;
+    border-right: 5px #787878 solid;
+    border-bottom: 5px #787878 solid;
+    color: #f4f4f4;
+}
