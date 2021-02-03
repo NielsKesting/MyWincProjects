@@ -1,0 +1,59 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    background-color: #484848;
+    width:90%;
+    margin:auto;
+}
+
+header{
+    font-size: 16px;
+    text-align: center;
+}
+
+.textblock{
+    color: #ffffff;
+    background-color: #303030;
+    border-bottom: 5px #ff6600 solid;
+    padding: 5px 20px;
+    margin-bottom: 13px;
+}
+
+#links{
+    text-align: center;
+    list-style: none;
+    background-color: #303030;
+    Padding: 10px;
+    border-bottom: 5px #ff6600 solid;
+    margin-bottom: 13px;
+}
+.navbar{
+    display: inline;
+    padding-right: 1%;
+}
+a{
+    text-decoration: none;
+    color: #ff6600;
+}
+
+a:hover{
+     color:#ffffff;
+}
+a:visited{
+     Color: none;
+}
+
+#ditbenik{
+    color: #ffffff;
+    text-align: center;
+    background-color: #303030;
+    width: 300px;
+    border-right: 5px #ff6600 solid;
+    border-bottom: 5px #ff6600 solid;
+}
+#profielfoto{
+    width:300px;
+    border-right: 5px #ff6600 solid;
+    border-bottom: 5px #ff6600 solid;
+    margin-bottom: 10px;
+}
