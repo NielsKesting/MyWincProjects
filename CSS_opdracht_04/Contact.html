@@ -26,10 +26,16 @@
             de opdracht zet ik een invulformulier op de site.
         </p>
 
-        <form name="contact" data-netlify="true">
-            <input class="newsform" type="text" value="Naam">
-            <input class="newsform" type="email" value="Email">
-            <textarea class="newsform">Bericht</textarea>
+        <form name="contact" method="POST" data-netlify="true">
+            <p>
+                <label>Naam:<input class="newsform" type="text" name="Naam"></label>
+            </p>
+            <p>
+                <label>Email:<input class="newsform" label="Email" type="email" name="Email"></label>
+            </p>
+            <p>
+                <label>Bericht:<textarea class="newsform" label="Bericht" name="Bericht"></textarea></label>
+            </p>
             <input type="submit" value="Verzend">
         </form>
 
