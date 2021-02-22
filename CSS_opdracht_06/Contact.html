@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Nieuwsbrief</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="title">Geen inspiratie</h1>
+        <nav>
+            <h3>
+                <ul class="navbar">
+                    <li class="navbar"><a href="index.html">Home</a></li>
+                    <li class="navbar"><a href="over_ons.html">Over ons</a></li>
+                    <li class="navbar"><a href="blog.html">Blog</a></li>
+                    <li class="navbar"><a href="contact.html">Contact</a></li>
+                </ul>
+            </h3>
+        </nav>
+    </header>
+
+    <main>
+        <p class="textblock">
+            Vul hier je gegevens in om zogenaamde contact te leggen. Ik ga niet reageren, maar vanwege
+            de opdracht zet ik een invulformulier op de site.
+        </p>
+
+        <form name="contact" method="POST" data-netlify="true">
+            <p>
+                <label>Naam:<input class="newsform" type="text" name="Naam"></label>
+            </p>
+            <p>
+                <label>Email:<input class="newsform" label="Email" type="email" name="Email"></label>
+            </p>
+            <p>
+                <label>Telefoon:<input class="newsform" type="tel" name="Telefoon"></label>
+            </p>
+            <p>
+                <label>Leeftijd:<input class="newsform" type="number" name="Leeftijd"></label>
+            </p>
+            <p>
+                <label>Geboortedatum:<input class="newsform" type="date" name="Geboortedatum"></label>
+            </p>
+            <p>
+                <label>Man:<input type="radio" name="Man"></label>
+                <label>Vrouw:<input type="radio" name="Vrouw"></label>
+                <label>Anders:<input type="radio" name="Anders"></label>
+            </p>
+            <p>
+                Favoriete cuisine:
+                <label>Frans:<input type="checkbox" name="Frans"></label>
+                <label>Italiaans:<input type="checkbox" name="Italiaans"></label>
+                <label>Spaans:<input type="checkbox" name="Spaans"></label>
+                <label>Arabisch:<input type="checkbox" name="Arabisch"></label>
+            </p>
+            <p>
+                <label> Schortkleur: <input type="color" name="Schortkleur"></label>
+            </p>
+            <p>
+                <label>Biografie:<textarea class="newsform" name="Biografie"></textarea></label>
+            </p>
+            <p>
+                <label>Website:<input class="newsform" type="url" name="Website"></label>
+            </p>
+            <p>
+                <label>Favoriete recept: <input type="file" name="Favoriete recept"></label>
+            </p>
+            <button type="reset">Reset</button>
+            <input type="submit" value="Verzend">
+        </form>
+
+        <img class="picture" src="Pictures/thanks_mate.jpg">
+    </main>
+</body>
+
+</html>
