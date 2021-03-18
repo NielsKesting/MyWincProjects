@@ -1,0 +1,67 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.approvebox{
+    display: grid;
+    width: 350px;
+    padding: 20px;
+    border: lightgray 2px solid;
+    margin: 10px;
+    grid-template: repeat(3, 33%) / 1fr 1fr;
+    grid-template-areas: 
+    "pe pe"
+    "p p"
+    "a d";
+}
+
+.personalia{
+    display: flex;
+    grid-area: pe;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.naamtitel{
+    grid-area: t;
+    margin-bottom: 20px;
+}
+h1{
+    font-size: 25px;
+}
+h2{
+    color: grey;
+    font-size: 20px;
+}
+.picture{
+    width: 55px;
+    height: 55px;
+}
+
+p{
+    grid-area: p;
+    margin-bottom: 20px;
+}
+
+.approve{
+    grid-area: a;
+    color: green;
+    text-align: center;
+    padding: 10px;
+    border-top: green 2px solid;
+    border-bottom: green 2px solid;
+    border-left: green 2px solid;
+}
+.decline{
+    grid-area: d;
+    color: red;
+    text-align: center;
+    padding: 10px;
+    border: red 2px solid;
+}
